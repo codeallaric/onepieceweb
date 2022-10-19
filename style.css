@@ -1,12 +1,9 @@
 body {
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
     display: flex;
     flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
     margin: 0px;
-    height: 100vh;
     justify-content: space-between;
 }
 
@@ -16,17 +13,99 @@ body {
     color: #f9faf8;
     justify-content: space-between;
     height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     align-items: center;
     font-weight: bold;
     font-size: 24px;
-    padding-left: 100px;
-    padding-right: 100px;
+    flex: 0 1 auto;
 }
 
 .maincontent {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 0 1 auto;
+}
+
+.eyecatch, .infolinker, .quote {
+    height: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.eyecatch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    flex: 0 1 auto;
+}
+
+.descriptionsignup {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 700px;
+    justify-content: space-between;
+    flex: 0 1 auto;
+}
+
+#hero1, #hero2 {
+    display: flex;
+    flex: 0 1 auto;
+}
+
+#hero1 {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -2;
+}
+
+#hero2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+}
+
+.picboxcredit {
+    flex: 0 1 auto;
+    font-size: 8px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picboxcredit p {
+    margin: 0px;
+    align-self: flex-end;
+}
+
+.picboxcredit img {
+    height: 270px;
+    width: 600px;
+    flex: 0 1 auto;
+}
+
+.infolinker {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.quote {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.calltoaction {
+    display: flex;
+    flex: 1 1 auto;
 }
 
 .footer {
@@ -37,6 +116,7 @@ body {
     font-size: 18px;
     justify-content: center;
     align-items: center;
+    flex: 0 1 auto;
 }
 
 
@@ -54,9 +134,35 @@ ul {
 .header ul {
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.picboxcredit a {
+    text-decoration: underline;
+}
+
+button {
+    display: flex;
+    height: 30px;
+    width: 90px;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+#firstbutt {
+    font-size: 24px;
+    height: 50px;
+    width: 150px;
+    margin: 12px;
+    margin-left: 0px;
 }
