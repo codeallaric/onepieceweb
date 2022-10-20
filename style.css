@@ -50,7 +50,7 @@ body {
 .descriptionsignup {
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 270px;
     width: 700px;
     justify-content: space-between;
     flex: 0 1 auto;
@@ -95,7 +95,42 @@ body {
 
 .infolinker {
     display: flex;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.littleimages {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    gap: 45px;
+}
+
+.picsquad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 185px;
+    text-align: center;
+}
+
+.picsquad p {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.picsquad img {
+    height: 200px;
+    width: 175px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    flex: 0 1 auto;
 }
 
 .quote {
@@ -165,4 +200,5 @@ button {
     width: 150px;
     margin: 12px;
     margin-left: 0px;
+    flex: 0 1 auto;
 }
